@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flexbox practice</title>
+        <body style="padding-bottom:1000px;">
+<div style="
+    display: flex;
+    flex-direction:row;
+    ">
+    <div style="background-color: lightblue;"> div 1 text</div>
+    <div style="background-color: lightpink;"> div 2 <p> text</p></div>
+</div>
+
+
+
+<div style="
+margin-top:30px;
+    display: flex;
+    flex-direction:row;
+    ">
+    <div style="background-color: lightblue;
+    width:100px;"> 100px</div>
+    <div style="background-color: lightpink;
+    flex:1"> flex:1 </div>
+</div>
+
+
+
+
+<div style="
+margin-top:30px;
+    display: flex;
+    flex-direction:row;
+    ">
+
+    <div style="background-color: lightblue;
+    flex:1"> flex:1 </div>
+
+<div style="background-color: lightpink;
+    width:100px;"> 100px</div>
+
+<div style="background-color: lightblue;
+    flex:2"> flex:2</div>
+</div>
+
+
+<div style="
+margin-top:30px;
+
+height:70px;
+border-width: 1px;
+border-style:solid;
+border-color:grey;
+
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    ">
+
+    <div style="background-color: lightblue;
+    width:100px;"> 100px </div>
+
+<div style="background-color: lightpink;
+    width:100px;"> 100px</div>
+
+<div style="background-color: lightblue;
+    width:100px;"> 100px </div>
+</div>
+
+
+
+
+<div style="
+margin-top:30px;
+
+height:70px;
+border-width: 1px;
+border-style:solid;
+border-color:grey;
+
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    ">
+
+    <div style="background-color: lightblue;
+    width:100px;"> 100px </div>
+
+<div style="background-color: lightpink;
+    width:100px;"> 100px</div>
+
+<div style="background-color: lightblue;
+    width:100px;"> 100px </div>
+</div>
+
+
+
+
+
+<div style="
+margin-top:30px;
+
+height:70px;
+border-width: 1px;
+border-style:solid;
+border-color:grey;
+
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    ">
+
+    <div style="background-color: lightblue;
+    width:100px;"> 100px </div>
+
+<div style="background-color: lightpink;
+    width:100px;"> 100px</div>
+
+<div style="background-color: lightblue;
+    width:100px;"> 100px </div>
+</div>
+
+        </body>
+    </head>
+</html>
+
+
+
+<!--flex means flexible, 
+flex:1 means like 1fr, takes the whole space.-->
+<!--Difference between grid and flexbox is : in grid , coloumn width is defined before only in the grid-template columns and even if we change the order of divs, the layout doesnt change,
+but in flexbox, they carry the width along with them and layout changes with the order of divs-->
+<!--Grid has rigid layout,
+flexbox has flexible layout-->
+<!--justify-content means alignemnt of content, we can put it as start center or end for right center and left.-->
+<!--Justify-content can also have a value as space-between, means it will create space between the divs.-->
+<!--align-items is used to align items vertically, it can have values like start, end , center or streach , streach means it will streach full length.-->
